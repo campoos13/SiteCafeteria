@@ -33,11 +33,18 @@ body {
 
 .logo {
     float: right;
-    padding: 0;
+    padding-top: 45px;
     transform: translate(-280%);
     display: flex;
     align-self: center;
     align-items: center;
+}
+.cafe {
+    transform: translateY(-6.6%);
+    float: inline-end;
+    align-items: center;
+    display: flex;
+    align-self: center;
 }
 .busca{
     text-align: center;
