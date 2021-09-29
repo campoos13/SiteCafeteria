@@ -99,14 +99,14 @@ body {
     position: relative;
     display: flex;
     z-index: 1;
-    padding: 0 10px;
+    padding: 0 7px;
 }
 .vapour span {
     position: relative;
     display: block;
     bottom: 80px;
     margin: 0 1px 30px;
-    min-width: 5px;
+    min-width: 4px;
     max-height: 120px;
     height: 120px;
     background: #fff;
@@ -114,8 +114,8 @@ body {
     right: 5px;
     animation: animate 5s linear infinite;
     opacity: 0;
-    filter: blur(8px);
-    animation-delay: calc(var(--i) * 0.5s);
+    filter: blur(6px);
+    animation-delay: calc(var(--i) * 0.4s);
 }
 @keyframes animate {
     0%{
@@ -126,13 +126,13 @@ body {
         opacity: 0.7;
     }
     50%{
-        transform: translateY(-150px) scaleX(5) translateX(5px);
+        transform: translateY(-150px) scaleX(5);
     }
     90%{
         opacity: 0;
     }
     100%{
-        transform: translateY(-200px) scaleX(10) translateX(5px);
+        transform: translateY(-200px) scaleX(10);
         opacity: 0;
     }
 }
