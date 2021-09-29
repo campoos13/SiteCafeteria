@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD700;
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 40px 20px;
+    border: 0 10px;
+    font-size: 30px;
+       
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover {
+    border-bottom: 2px solid black;
+}
+.cabecalho {
+    background-color: #AFEEEE;
+    padding-top: 1px;
+    background-size: cover;
+    height: 135px;
+    width: 100%;
+}
+
+
+.logo {
+    float: right;
+    padding: 0;
+    transform: translate(-280%);
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.busca{
+    text-align: center;
+    width: 10%;
+    float: right;
+}
+.busca input {
+    background-image: url(search.png);
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 30px;
+    width: 200px;
+    padding-left: 30px;
+}
+input {
+    -webkit-appearance: textfield;
+    cursor: text;
+    border-width: 2px;
+    border-style: inset;
+    border-image: initial;
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    padding: 0 100px;
+    font-size: larger;
+    text-align: center;
+}
+
